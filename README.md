@@ -21,11 +21,8 @@
   - src/services/api.ts 后端 API 封装
   - vite.config.ts 开发代理与构建配置
 
-## 快速开始（一键脚本）
-- Windows 下执行：
-  - PowerShell 运行：`powershell -ExecutionPolicy Bypass -File .\start.ps1`
-  - 脚本内容：自动创建/使用虚拟环境、安装后端依赖、安装前端依赖，并分别启动 uvicorn 与 Vite 开发服务器
-  - 在执行脚本之前，先依据 [backend/.env.example](file:///d:/AGI/translate_item/backend/.env.example) 创建并填写 [backend/.env](file:///d:/AGI/translate_item/backend/.env) 所需变量
+## 快速开始
+请先依据 [backend/.env.example](file:///d:/AGI/translate_item/backend/.env.example) 创建并填写 [backend/.env](file:///d:/AGI/translate_item/backend/.env) 所需变量，然后按以下步骤手动启动前后端。
 
 ## 手动启动
 - 后端
