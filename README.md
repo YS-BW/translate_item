@@ -25,6 +25,7 @@
 - Windows 下执行：
   - PowerShell 运行：`powershell -ExecutionPolicy Bypass -File .\start.ps1`
   - 脚本内容：自动创建/使用虚拟环境、安装后端依赖、安装前端依赖，并分别启动 uvicorn 与 Vite 开发服务器
+  - 在执行脚本之前，先依据 [backend/.env.example](file:///d:/AGI/translate_item/backend/.env.example) 创建并填写 [backend/.env](file:///d:/AGI/translate_item/backend/.env) 所需变量
 
 ## 手动启动
 - 后端
@@ -46,6 +47,7 @@
   - `LLM_MODEL_NAME` 模型名称
   - `LLM_API_KEY` 模型密钥
   - 如使用代理或第三方服务，可在此扩展配置
+ - 可参考示例文件 [backend/.env.example](file:///d:/AGI/translate_item/backend/.env.example) 进行创建
 
 ## 技术栈
 - 后端：FastAPI, Pydantic, Uvicorn, python-dotenv
